@@ -19,7 +19,7 @@ public class Pgescrollandup {
 	  Thread.sleep(5000);
 	  JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("scroll(0,4200)");
-		 Thread.sleep(5000);
+		 Thread.sleep(4000);
 		
 	  
 	  driver.findElement(By.xpath("/html/body/div/main/div[9]/div/div/p[1]/a")).click();
