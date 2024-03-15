@@ -16,10 +16,10 @@ public class Pgescrollandup {
 	  driver.get("https://www.selenium.dev/");
 	 
 	  driver.findElement(By.xpath("//*[@id=\"main_navbar\"]/ul/li[2]/a/span")).click();
-	  Thread.sleep(3000);
+	  Thread.sleep(5000);
 	  JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("scroll(0,4200)");
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
 		
 	  
 	  driver.findElement(By.xpath("/html/body/div/main/div[9]/div/div/p[1]/a")).click();

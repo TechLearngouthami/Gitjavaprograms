@@ -16,7 +16,7 @@ public class Alertokcanclesendoktext {
 	  Thread.sleep(5000);
 	  driver.findElement(By.xpath("//*[@id=\"node-102\"]/div/div[1]/div/div/button")).click();
 
-	  Thread.sleep(3000);
+	  Thread.sleep(5000);
 	  Alert alt=driver.switchTo().alert();
 	  alt.accept();
 	  

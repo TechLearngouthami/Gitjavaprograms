@@ -22,8 +22,8 @@ public class Dropdownf {
 	 driver.findElement(By.id("field-krP8MPeuzRrukdo")).sendKeys("vinayakagunj");
 	 driver.findElement(By.xpath("//input[@id='field-IQsTTT9SxEPs3LH']")).sendKeys("SDNR");
 	 driver.findElement(By.xpath("//input[@id='field-2Ngu0gfcgyZYrFE']")).sendKeys("RANGAREDDY");
-	 driver.findElement(By.id("field-5vlVJGcSKva7av0")).sendKeys("509216");
-	 Thread.sleep(2000);
+	 driver.findElement(By.id("field-5vlVJGcSKva7av0")).sendKeys("500070");
+	 Thread.sleep(3000);
 	 Select co= new Select(driver.findElement(By.xpath("//*[@id=\"field-5gVECDat8HE4BHW\"]")));
 	 co.selectByValue("PL");
 	// new Select(driver.findElement(By.xpath("//*[@id=\"field-5gVECDat8HE4BHW\"]"))).selectByVisibleText("Pakistan");
